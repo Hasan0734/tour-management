@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Dhaka-Sandarban-Dhaka",
+    "place_from": "Dhaka",
+    "palce_to": "Khulna",
+    "duration_day": "3 days",
+    "duration_night": "2 Night",
+    "price": 12500,
+    "description": "",
+    "image": "https://i.ibb.co/RzKXmt2/sundarbans.jpg",
+    "viwed": 0
+  },
+  {
+    "name": "Cox's Bazar - Saint martins Island Package",
+    "place_from": "Dhaka",
+    "palce_to": "Teknaf",
+    "duration_day": "4 days",
+    "duration_night": "3 Night",
+    "price": 9800,
+    "image": "https://i.ibb.co/ZV7WZZq/saint-martin-s-island.jpg",
+    "viwed": 0
+  },
+  {
+    "name": "Dhaka - Sylhet - Dhaka Tour Package",
+    "place_from": "Dhaka",
+    "palce_to": "Sylhet",
+    "duration_day": "3 days",
+    "duration_night": "2 Night",
+    "price": 7000,
+    "image": "https://i.ibb.co/c3YRyRr/syhelt.jpg",
+    "viwed": 0
+  },
+  {
+    "name": "Dhaka - Bandarban - Dhaka",
+    "place_from": "Dhaka",
+    "palce_to": "Bandarban",
+    "duration_day": "3 days",
+    "duration_night": "2 Night",
+    "price": 7400,
+    "image": "https://ibb.co/3ks0djf",
+    "viwed": 0
+  },
+  {
+    "name": "Dhaka - Hatia - Nijhum Dwip - Hatia - Dhaka Package Tour",
+    "place_from": "Dhaka",
+    "palce_to": "Shadarghat",
+    "duration_day": "5 days",
+    "duration_night": "4 Night",
+    "price": 9500,
+    "image": "https://ibb.co/yX6YhtG",
+    "viwed": 0
+  },
+  {
+    "name": "Dhaka - Rangamati - Bandarban - Cox's Bazar - Dhaka",
+    "place_from": "Dhaka",
+    "palce_to": "Rangamati",
+    "duration_day": "4 days",
+    "duration_night": "3 Night",
+    "price": 13200,
+    "image": "https://ibb.co/q5n9n9n",
+    "viwed": 0
+  },
+  {
+    "name": "Cox's Bazar - Saint Martins islan Package",
+    "place_from": "Dhaka",
+    "palce_to": "Teknaf",
+    "duration_day": "4 days",
+    "duration_night": "3 Night",
+    "price": 11800,
+    "image": "https://ibb.co/xM37Y7m",
+    "viwed": 0
+  },
+  {
+    "name": "Dhaka - Rangamati - Dhaka",
+    "place_from": "Dhaka",
+    "palce_to": "Rangamati",
+    "duration_day": "4 days",
+    "duration_night": "3 Night",
+    "price": 8999,
+    "image": "https://ibb.co/DQ5vkM1",
+    "viwed": 0
+  },
+  {
+    "name": "Dhaka - Bandarban - Cox's Bazar - Dhaka",
+    "place_from": "Dhaka",
+    "palce_to": "Bandarban",
+    "duration_day": "4 days",
+    "duration_night": "3 Night",
+    "price": 8999,
+    "image": "https://ibb.co/qxkz6MV",
+    "viwed": 0
+  },
+  {
+    "name": "Dhaka - Srimongal - Sylhet - Dhaka Tour Package",
+    "place_from": "Dhaka",
+    "palce_to": "Srimongal",
+    "duration_day": "5 days",
+    "duration_night": "4 Night",
+    "price": 13800,
+    "image": "https://ibb.co/VL8WcFP",
+    "viwed": 0
+  },
+  {
+    "name": "Sajek Valley Group  Tour Package",
+    "place_from": "Dhaka",
+    "palce_to": "Khagrachori",
+    "duration_day": "2 days",
+    "duration_night": "1 Night",
+    "price": 5800,
+    "image": "https://ibb.co/djRjfXp",
+    "viwed": 0
+  },
+  {
+    "name": "Exlusive Khagrachori & Sajek Valley",
+    "place_from": "Dhaka",
+    "palce_to": "Khagrachori",
+    "duration_day": "3 days",
+    "duration_night": "2 Night",
+    "price": 10500,
+    "image": "https://ibb.co/9TpnCxr",
+    "viwed": 0
+  },
+  {
+    "name": "Exlusive Khagrachori & Sajek Valley",
+    "place_from": "Dhaka",
+    "palce_to": "Khagrachori",
+    "duration_day": "3 days",
+    "duration_night": "2 Night",
+    "price": 10500,
+    "image": "https://ibb.co/9TpnCxr",
+    "viwed": 0
+  },
+  {
+    "name": "Dhaka - Rangamati - Dhaka (Non AC)",
+    "place_from": "Dhaka",
+    "palce_to": "Rangamati",
+    "duration_day": "3 days",
+    "duration_night": "2 Night",
+    "price": 7200,
+    "image": "https://ibb.co/9TpnCxr",
+    "viwed": 0
+  },
+  {
+    "name": "Dhaka - Chittagong - Cox's Bazar - Dhaka",
+    "place_from": "Dhaka",
+    "palce_to": "Chittagong",
+    "duration_day": "4 days",
+    "duration_night": "3 Night",
+    "price": 11800,
+    "image": "https://ibb.co/9TpnCxr",
+    "viwed": 0
+  },
+  {
+    "name": "Dhaka - Sylhet - jaflon - Dhaka Tour Package",
+    "place_from": "Dhaka",
+    "palce_to": "Sylhet",
+    "duration_day": "4 days",
+    "duration_night": "3 Night",
+    "price": 12800,
+    "image": "https://ibb.co/xFmCZ7y",
+    "viwed": 0
+  },
+  {
+    "name": "Kolkata - Delhi - Agra - Jaipur $ Kolkata",
+    "place_from": "Dhaka",
+    "palce_to": "Kolkata",
+    "duration_day": "10 days",
+    "duration_night": "09 Night",
+    "price": 39000,
+    "image": "https://ibb.co/xFmCZ7y",
+    "viwed": 0
+  },
+  {
+    "name": "Dhaka - Shilong - Guwahati - Shillon - Chereponjee - Dhaka",
+    "place_from": "Dhaka",
+    "palce_to": "Shilong",
+    "duration_day": "5 days",
+    "duration_night": "4 Night",
+    "price": 39000,
+    "image": "https://ibb.co/xFmCZ7y",
+    "viwed": 0
+  },
+  {
+    "name": "Best Kashmir Package from Dhaka",
+    "place_from": "Dhaka",
+    "palce_to": "Kashmir",
+    "duration_day": "5 days",
+    "duration_night": "4 Night",
+    "price": 80750,
+    "image": "https://ibb.co/xFmCZ7y",
+    "viwed": 0
+  }
+]
