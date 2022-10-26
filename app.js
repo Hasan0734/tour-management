@@ -7,11 +7,11 @@ app.use(express.json());
 app.use(cors());
 
 // routes
-const productRoute = require("./routes/product.route");
 
 const tourRoute = require("./routes/tour.route");
+const otherTourRoute = require('./routes/otherTour.route')
 
-app.use("/api/v1/product", productRoute);
-app.use("/api/v1/tour", tourRoute);
+app.use("/api/v1/tours", tourRoute);
+app.use("/api/v1/tour", otherTourRoute);
 
 module.exports = app;

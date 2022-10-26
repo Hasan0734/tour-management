@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 
-const trourPackageSchema = mongoose.Schema(
+const tourSchema = mongoose.Schema(
   {
     name: {
       type: String,
-      required: [true, "Please provide a name for this tour package."],
+      required: [true, "Please provide a name for this tour."],
       trim: true, //remove space after and before
       unique: [true, "Name must be unique"],
       minLength: [3, "Name must be at least 3 charcters."],
@@ -16,7 +16,7 @@ const trourPackageSchema = mongoose.Schema(
       trim: true,
       minLength: [3, "Name must be at least 3 charcters."],
     },
-    palce_to: {
+    place_to: {
       type: String,
       required: [true, "Please provide place to location ."],
       trim: true,
@@ -43,11 +43,15 @@ const trourPackageSchema = mongoose.Schema(
       required: [true, "Image link required"],
       trim: true,
     },
-    viwed: 0,
+    viwed: {
+      type: Number,
+      enum: [0],
+      default: 0,
+    },
   },
   { timestamps: true }
 );
 
-const Package = mongoose.model("Package", trourPackageSchema);
+const Tour = mongoose.model("Tour", tourSchema);
 
-module.exports = Package;
+module.exports = Tour;
