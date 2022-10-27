@@ -45,8 +45,8 @@ const tourSchema = mongoose.Schema(
     },
     viwed: {
       type: Number,
-      enum: [0],
       default: 0,
+      enum: [0],
     },
   },
   { timestamps: true }

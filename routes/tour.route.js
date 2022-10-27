@@ -4,8 +4,12 @@ const tourContoller = require('../controllers/tour.controller')
 
 
 
-router.route("/").get(tourContoller.getTours).post(tourContoller.createTour);
-router.route("/:id").get(tourContoller.getTourById).patch(tourContoller.updateTourById);
+router.route("/tours").get(tourContoller.getTours).post(tourContoller.createTour);
+router.route("/tours/:id").get(tourContoller.getTourById);
+router.route("/tour/tranding").get(tourContoller.getTrandingTour);
+router.route("/tour/cheapest").get(tourContoller.getTrandingTour);
+router.route("/tour/:id").patch(tourContoller.updateTourById);
+
 
 
 

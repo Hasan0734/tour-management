@@ -9,9 +9,8 @@ app.use(cors());
 // routes
 
 const tourRoute = require("./routes/tour.route");
-const otherTourRoute = require('./routes/otherTour.route')
 
-app.use("/api/v1/tours", tourRoute);
-app.use("/api/v1/tour", otherTourRoute);
+app.use("/api/v1", tourRoute);
+
 
 module.exports = app;

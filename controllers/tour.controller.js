@@ -3,6 +3,8 @@ const {
   createTourService,
   getTourByIdSevice,
   updateTourByIdService,
+  getTourCheapestService,
+  getTourTrandingService,
 } = require("../services/tour.services");
 
 exports.getTours = async (req, res, next) => {
@@ -97,6 +99,36 @@ exports.updateTourById = async (req, res, next) => {
       status: "fail",
       message: "Tour not found",
       error: error.message,
+    });
+  }
+};
+
+exports.getTrandingTour = async (req, res, next) => {
+  try {
+    const result = await getTourTrandingService();
+    res.status(200).json({
+      status: "success",
+      data: result,
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: "fail",
+      message: error.message,
+    });
+  }
+};
+
+exports.getCheapestTour = async (req, res, next) => {
+  try {
+    const result = await getTourCheapestService();
+    res.status(200).json({
+      status: "success",
+      data: result,
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: "fail",
+      message: error.message,
     });
   }
 };
