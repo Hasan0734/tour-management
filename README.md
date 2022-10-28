@@ -36,7 +36,7 @@ Main API : [https://tour-management-system-hll5.onrender.com/api/v1/](https://to
 
 ##### Example:
 
-   {
+    {
     "name": "Mymensingh - Rangamati - Dhaka (Non AC)",
     "place_from": "Mymensingh",
     "place_to": "Rangamati",
@@ -44,7 +44,7 @@ Main API : [https://tour-management-system-hll5.onrender.com/api/v1/](https://to
     "duration_night": "2 Night",
     "price": 8000,
     "image": "https://ibb.co/9TpnCxr",
-   }
+    }
 
 #### Update a tour package
 ```http
@@ -54,9 +54,9 @@ Main API : [https://tour-management-system-hll5.onrender.com/api/v1/](https://to
 
 ##### Example:
 
-   {
+    {
      "price": 8000,
-   }
+    }
 
 
 #### Update multiple users
