@@ -21,23 +21,25 @@ Main API : [https://tour-management-system-hll5.onrender.com/api/v1/](https://to
 
 | Object key | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `id` | `number` | **Required**. user id |
-| `name` | `string` | **Required**. user user |
-| `gender` | `string` | **Required**. user gender |
-| `contact` | `any` | **Required**. user contact info |
-| `address` | `string` | **Required**. user address info |
-| `photoUrl` | `string` | **Required**. user photo url |
+| `name` | `string` | **Required**. Tour Package name |
+| `place_from` | `string` | **Required**. Which location from start |
+| `place_to` | `string` | **Required**. Which location going |
+| `duration_day` | `string` | **Required**. How many days|
+| `duration_night` | `string` | **Required**. How many nights
+| `price` | `number` | **Required**. Tour package price|
+| `image` | `string` | **Required**.  Tour pacckage image url |
 
 ##### Example:
 
     {
-      "id": 22,
-      "name": "Jahid Hasan",
-      "gender": "Male",
-      "contact": "Jahid0734@gmail.com",
-      "address": "Fulbaria, Mymensingh",
-      "photoUrl": "https://www.mywebsite.com/myphoto.jpg" 
-    }
+    "name": "Mymensingh - Rangamati - Dhaka (Non AC)",
+    "place_from": "Mymensingh",
+    "place_to": "Rangamati",
+    "duration_day": "3 days",
+    "duration_night": "2 Night",
+    "price": 8000,
+    "image": "https://ibb.co/9TpnCxr",
+}
 
 #### Update a random user
 ```http
