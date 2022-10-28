@@ -12,12 +12,11 @@ Main API : [https://tour-management-system-hll5.onrender.com/api/v1/](https://to
 
 ```http
  GET/tours/
- GET/tours/?fields=name,image&sort=price&page=1&limit=3
 ```
 #### Get by filters
 
 ```http
- GET/tours/?fields={field name},{field name}&sort={field name}&page={page number}&limit={limit data}
+ GET/tours/?fields={field name},{field name}&sort={field name}&page={number}&limit={limit data}
 ```
 #### Create a tour package
 ```http
@@ -45,6 +44,12 @@ Main API : [https://tour-management-system-hll5.onrender.com/api/v1/](https://to
     "price": 8000,
     "image": "https://ibb.co/9TpnCxr",
     }
+    
+ #### Get tour package
+```http
+ PATCH/tours/:id
+```
+
 
 #### Update a tour package
 ```http
@@ -58,45 +63,12 @@ Main API : [https://tour-management-system-hll5.onrender.com/api/v1/](https://to
      "price": 8000,
     }
 
-
-#### Update multiple users
+ #### Get tour packages top 3 viwed
 ```http
- PATCH/user/bulk-update
+ PATCH/tour/trending
 ```
-
-Send a array on json
-
-| Object key | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `id` | `number` | **Required**. user id |
-
-##### Example:
-
-    [
-      {
-      "id": 19,
-      "name": "Jahid Hasan",
-      },
-      {
-      "id": 20,
-      "contact": "example@gmail.com",
-      },
-    ]
-
-
-#### Delete a random user
+ #### Get tour packages top 3 cheapest price
 ```http
- DELETE/user/delete
+ PATCH/tour/cheapest
 ```
-
-| Object key | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `id` | `number` | **Required**. user id |
-
-
-##### Example:
-
-    {
-      "id": 20,
-    }
 
