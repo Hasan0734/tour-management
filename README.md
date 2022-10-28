@@ -47,7 +47,7 @@ Main API : [https://tour-management-system-hll5.onrender.com/api/v1/](https://to
     
  #### Get tour package
 ```http
- PATCH/tours/:id
+ GET/tours/:id
 ```
 
 
@@ -65,10 +65,10 @@ Main API : [https://tour-management-system-hll5.onrender.com/api/v1/](https://to
 
  #### Get tour packages top 3 viwed
 ```http
- PATCH/tour/trending
+ GET/tour/trending
 ```
  #### Get tour packages top 3 cheapest price
 ```http
- PATCH/tour/cheapest
+ GET/tour/cheapest
 ```
 
