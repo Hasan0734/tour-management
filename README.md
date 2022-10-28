@@ -12,11 +12,16 @@ Main API : [https://tour-management-system-hll5.onrender.com/api/v1/](https://to
 
 ```http
  GET/tours/
- GET/user/all?max=number
+ GET/tours/?fields=name,image&sort=price&page=1&limit=3
 ```
-#### Save a random user
+#### Get by filters
+
 ```http
- POST/user/save
+ GET/tours/?fields={field name},{field name}&sort={field name}&page={page number}&limit={limit data}
+```
+#### Create a tour package
+```http
+ POST/tours/
 ```
 
 | Object key | Type     | Description                |
@@ -31,7 +36,7 @@ Main API : [https://tour-management-system-hll5.onrender.com/api/v1/](https://to
 
 ##### Example:
 
-    {
+   {
     "name": "Mymensingh - Rangamati - Dhaka (Non AC)",
     "place_from": "Mymensingh",
     "place_to": "Rangamati",
@@ -39,23 +44,19 @@ Main API : [https://tour-management-system-hll5.onrender.com/api/v1/](https://to
     "duration_night": "2 Night",
     "price": 8000,
     "image": "https://ibb.co/9TpnCxr",
-}
+   }
 
-#### Update a random user
+#### Update a tour package
 ```http
- PATCH/user/update
+ PATCH/tour/:id
 ```
-
-| Object key | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `id` | `number` | **Required**. user id |
 
 
 ##### Example:
 
-    {
-      "id": 20,
-    }
+   {
+     "price": 8000,
+   }
 
 
 #### Update multiple users
