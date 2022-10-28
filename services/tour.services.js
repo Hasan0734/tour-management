@@ -25,13 +25,14 @@ exports.getTourByIdSevice = async (tourId) => {
 };
 
 exports.updateTourByIdService = async (tourId, data) => {
-  
-  const result = await Tour.updateOne({ _id: tourId }, { $set: data }, { runValidators: true });
-  
-  // const tour = await Tour.findById(tourId);
-  //   console.log(tour);
-  // const result = await tour.set(data).save();
-  // console.log(result);
+  // const result = await Tour.updateOne(
+  //   { _id: tourId },
+  //   { $set: data },
+  //   { runValidators: true }
+  // );
+
+  const tour = await Tour.findById(tourId);
+  const result = await tour.set(data).save();
 
   return result;
 };
@@ -40,8 +41,8 @@ exports.getTourTrandingService = async () => {
   const result = await Tour.find().sort("-viwed").limit(3);
   return result;
 };
+
 exports.getTourCheapestService = async () => {
   const result = await Tour.find().sort("price").limit(3);
-
   return result;
 };

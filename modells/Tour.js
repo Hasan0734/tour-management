@@ -46,11 +46,18 @@ const tourSchema = mongoose.Schema(
     viwed: {
       type: Number,
       default: 0,
-      enum: [0],
     },
   },
   { timestamps: true }
 );
+
+tourSchema.pre("save", function (next) {
+  // this →
+  if (this.viwed > 0) {
+    this.viwed = 0;
+  }
+  next();
+});
 
 const Tour = mongoose.model("Tour", tourSchema);
 
